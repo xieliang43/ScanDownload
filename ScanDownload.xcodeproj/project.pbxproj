@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0CBAD841589AE2E00920C8A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0CBAD831589AE2E00920C8A /* UIKit.framework */; };
+		E0CBAD861589AE2E00920C8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0CBAD851589AE2E00920C8A /* Foundation.framework */; };
+		E0CBAD881589AE2E00920C8A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0CBAD871589AE2E00920C8A /* CoreGraphics.framework */; };
+		E0CBAD8E1589AE2E00920C8A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E0CBAD8C1589AE2E00920C8A /* InfoPlist.strings */; };
+		E0CBAD901589AE2E00920C8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CBAD8F1589AE2E00920C8A /* main.m */; };
+		E0CBAD941589AE2E00920C8A /* XLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CBAD931589AE2E00920C8A /* XLAppDelegate.m */; };
+		E0CBAD971589AE2E00920C8A /* XLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CBAD961589AE2E00920C8A /* XLViewController.m */; };
+		E0CBAD9A1589AE2E00920C8A /* XLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0CBAD981589AE2E00920C8A /* XLViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E0CBAD7F1589AE2E00920C8A /* ScanDownload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScanDownload.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0CBAD831589AE2E00920C8A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E0CBAD851589AE2E00920C8A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E0CBAD871589AE2E00920C8A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E0CBAD8B1589AE2E00920C8A /* ScanDownload-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScanDownload-Info.plist"; sourceTree = "<group>"; };
+		E0CBAD8D1589AE2E00920C8A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E0CBAD8F1589AE2E00920C8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E0CBAD911589AE2E00920C8A /* ScanDownload-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScanDownload-Prefix.pch"; sourceTree = "<group>"; };
+		E0CBAD921589AE2E00920C8A /* XLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLAppDelegate.h; sourceTree = "<group>"; };
+		E0CBAD931589AE2E00920C8A /* XLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLAppDelegate.m; sourceTree = "<group>"; };
+		E0CBAD951589AE2E00920C8A /* XLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLViewController.h; sourceTree = "<group>"; };
+		E0CBAD961589AE2E00920C8A /* XLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLViewController.m; sourceTree = "<group>"; };
+		E0CBAD991589AE2E00920C8A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/XLViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0CBAD7C1589AE2E00920C8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0CBAD841589AE2E00920C8A /* UIKit.framework in Frameworks */,
+				E0CBAD861589AE2E00920C8A /* Foundation.framework in Frameworks */,
+				E0CBAD881589AE2E00920C8A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0CBAD741589AE2E00920C8A = {
+			isa = PBXGroup;
+			children = (
+				E0CBAD891589AE2E00920C8A /* ScanDownload */,
+				E0CBAD821589AE2E00920C8A /* Frameworks */,
+				E0CBAD801589AE2E00920C8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0CBAD801589AE2E00920C8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0CBAD7F1589AE2E00920C8A /* ScanDownload.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0CBAD821589AE2E00920C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0CBAD831589AE2E00920C8A /* UIKit.framework */,
+				E0CBAD851589AE2E00920C8A /* Foundation.framework */,
+				E0CBAD871589AE2E00920C8A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0CBAD891589AE2E00920C8A /* ScanDownload */ = {
+			isa = PBXGroup;
+			children = (
+				E0CBAD921589AE2E00920C8A /* XLAppDelegate.h */,
+				E0CBAD931589AE2E00920C8A /* XLAppDelegate.m */,
+				E0CBAD951589AE2E00920C8A /* XLViewController.h */,
+				E0CBAD961589AE2E00920C8A /* XLViewController.m */,
+				E0CBAD981589AE2E00920C8A /* XLViewController.xib */,
+				E0CBAD8A1589AE2E00920C8A /* Supporting Files */,
+			);
+			path = ScanDownload;
+			sourceTree = "<group>";
+		};
+		E0CBAD8A1589AE2E00920C8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0CBAD8B1589AE2E00920C8A /* ScanDownload-Info.plist */,
+				E0CBAD8C1589AE2E00920C8A /* InfoPlist.strings */,
+				E0CBAD8F1589AE2E00920C8A /* main.m */,
+				E0CBAD911589AE2E00920C8A /* ScanDownload-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0CBAD7E1589AE2E00920C8A /* ScanDownload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0CBAD9D1589AE2E00920C8A /* Build configuration list for PBXNativeTarget "ScanDownload" */;
+			buildPhases = (
+				E0CBAD7B1589AE2E00920C8A /* Sources */,
+				E0CBAD7C1589AE2E00920C8A /* Frameworks */,
+				E0CBAD7D1589AE2E00920C8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScanDownload;
+			productName = ScanDownload;
+			productReference = E0CBAD7F1589AE2E00920C8A /* ScanDownload.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0CBAD761589AE2E00920C8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XL;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = pretang;
+			};
+			buildConfigurationList = E0CBAD791589AE2E00920C8A /* Build configuration list for PBXProject "ScanDownload" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E0CBAD741589AE2E00920C8A;
+			productRefGroup = E0CBAD801589AE2E00920C8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0CBAD7E1589AE2E00920C8A /* ScanDownload */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0CBAD7D1589AE2E00920C8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0CBAD8E1589AE2E00920C8A /* InfoPlist.strings in Resources */,
+				E0CBAD9A1589AE2E00920C8A /* XLViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0CBAD7B1589AE2E00920C8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0CBAD901589AE2E00920C8A /* main.m in Sources */,
+				E0CBAD941589AE2E00920C8A /* XLAppDelegate.m in Sources */,
+				E0CBAD971589AE2E00920C8A /* XLViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E0CBAD8C1589AE2E00920C8A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0CBAD8D1589AE2E00920C8A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E0CBAD981589AE2E00920C8A /* XLViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0CBAD991589AE2E00920C8A /* en */,
+			);
+			name = XLViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0CBAD9B1589AE2E00920C8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E0CBAD9C1589AE2E00920C8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0CBAD9E1589AE2E00920C8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScanDownload/ScanDownload-Prefix.pch";
+				INFOPLIST_FILE = "ScanDownload/ScanDownload-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E0CBAD9F1589AE2E00920C8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScanDownload/ScanDownload-Prefix.pch";
+				INFOPLIST_FILE = "ScanDownload/ScanDownload-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0CBAD791589AE2E00920C8A /* Build configuration list for PBXProject "ScanDownload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0CBAD9B1589AE2E00920C8A /* Debug */,
+				E0CBAD9C1589AE2E00920C8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0CBAD9D1589AE2E00920C8A /* Build configuration list for PBXNativeTarget "ScanDownload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0CBAD9E1589AE2E00920C8A /* Debug */,
+				E0CBAD9F1589AE2E00920C8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0CBAD761589AE2E00920C8A /* Project object */;
+}
