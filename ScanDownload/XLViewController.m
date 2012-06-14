@@ -52,8 +52,7 @@
         reader.readerDelegate = self;
         reader.showsZBarControls = NO;
         reader.supportedOrientationsMask = ZBarOrientationMaskAll;
-        UIView *v = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
-        v.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.7];
+        UIImageView *v = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"mask.png"]];
         reader.cameraOverlayView = v;
         [v release];
         

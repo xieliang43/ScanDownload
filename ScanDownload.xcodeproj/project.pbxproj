@@ -23,6 +23,8 @@
 		E0CBADC81589B30100920C8A /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E0CBADC71589B30100920C8A /* libiconv.dylib */; };
 		E0CBADD61589B93500920C8A /* XLOtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CBADD41589B93500920C8A /* XLOtherViewController.m */; };
 		E0CBADD71589B93500920C8A /* XLOtherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0CBADD51589B93500920C8A /* XLOtherViewController.xib */; };
+		E0CBADE81589C63800920C8A /* mask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0CBADE61589C63800920C8A /* mask@2x.png */; };
+		E0CBADE91589C63800920C8A /* mask.png in Resources */ = {isa = PBXBuildFile; fileRef = E0CBADE71589C63800920C8A /* mask.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +70,8 @@
 		E0CBADD31589B93500920C8A /* XLOtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLOtherViewController.h; sourceTree = "<group>"; };
 		E0CBADD41589B93500920C8A /* XLOtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLOtherViewController.m; sourceTree = "<group>"; };
 		E0CBADD51589B93500920C8A /* XLOtherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XLOtherViewController.xib; sourceTree = "<group>"; };
+		E0CBADE61589C63800920C8A /* mask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mask@2x.png"; sourceTree = "<group>"; };
+		E0CBADE71589C63800920C8A /* mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mask.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +147,7 @@
 		E0CBAD8A1589AE2E00920C8A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E0CBADE01589C44100920C8A /* image */,
 				E0CBAD8B1589AE2E00920C8A /* ScanDownload-Info.plist */,
 				E0CBAD8C1589AE2E00920C8A /* InfoPlist.strings */,
 				E0CBAD8F1589AE2E00920C8A /* main.m */,
@@ -184,6 +189,15 @@
 				E0CBADAF1589AECE00920C8A /* Window.h */,
 			);
 			path = zbar;
+			sourceTree = "<group>";
+		};
+		E0CBADE01589C44100920C8A /* image */ = {
+			isa = PBXGroup;
+			children = (
+				E0CBADE61589C63800920C8A /* mask@2x.png */,
+				E0CBADE71589C63800920C8A /* mask.png */,
+			);
+			name = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +255,8 @@
 				E0CBAD8E1589AE2E00920C8A /* InfoPlist.strings in Resources */,
 				E0CBAD9A1589AE2E00920C8A /* XLViewController.xib in Resources */,
 				E0CBADD71589B93500920C8A /* XLOtherViewController.xib in Resources */,
+				E0CBADE81589C63800920C8A /* mask@2x.png in Resources */,
+				E0CBADE91589C63800920C8A /* mask.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
