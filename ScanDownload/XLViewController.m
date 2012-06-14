@@ -14,11 +14,8 @@
 
 @implementation XLViewController
 
-@synthesize addressField = _addressField;
-
 - (void)dealloc
 {
-    [_addressField release];
     [super dealloc];
 }
 
@@ -39,9 +36,17 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
-- (IBAction)doScan:(id)sender
+- (IBAction)presentOtherController:(id)sender
 {
-    if ([ZBarReaderViewController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera]) {
+    XLOtherViewController *otherController = [[XLOtherViewController alloc] initWithNibName:nil bundle:nil];
+    [self presentModalViewController:otherController animated:YES];
+    [otherController release];
+}
+
+- (IBAction)scan:(id)sender
+{
+    if ([ZBarReaderViewController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera]&&
+        [ZBarReaderViewController isCameraDeviceAvailable:UIImagePickerControllerCameraDeviceRear]) {
         // ADD: present a barcode reader that scans from the camera feed
         ZBarReaderViewController *reader = [[ZBarReaderViewController alloc] init];
         reader.readerDelegate = self;
@@ -85,13 +90,27 @@
         break;
     
     // EXAMPLE: do something useful with the barcode data
-    _addressField.text = symbol.data;
+    NSString *str = symbol.data;
+    NSURL *url = [NSURL URLWithString:str];
     
     // EXAMPLE: do something useful with the barcode image
     //resultImage.image = [info objectForKey: UIImagePickerControllerOriginalImage];
     
     // ADD: dismiss the controller (NB dismiss from the *reader*!)
     [reader dismissModalViewControllerAnimated: YES];
+    
+    if (!url) {
+        [[UIApplication sharedApplication] openURL:url];
+    }else {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"提示"
+                                                        message:@"url地址不正确！"
+                                                       delegate:nil
+                                              cancelButtonTitle:@"确定"
+                                              otherButtonTitles:nil];
+        [alert show];
+        [alert release];
+    }
+    
 }
 
 @end

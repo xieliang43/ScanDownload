@@ -1,5 +1,5 @@
 //
-//  XLAccessWebController.h
+//  XLOtherViewController.h
 //  ScanDownload
 //
 //  Created by xie liang on 6/14/12.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface XLAccessWebController : UIViewController
+@interface XLOtherViewController : UIViewController
 
 @end

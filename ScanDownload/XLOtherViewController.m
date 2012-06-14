@@ -1,18 +1,18 @@
 //
-//  XLDownloadAppController.m
+//  XLOtherViewController.m
 //  ScanDownload
 //
 //  Created by xie liang on 6/14/12.
 //  Copyright (c) 2012 pretang. All rights reserved.
 //
 
-#import "XLDownloadAppController.h"
+#import "XLOtherViewController.h"
 
-@interface XLDownloadAppController ()
+@interface XLOtherViewController ()
 
 @end
 
-@implementation XLDownloadAppController
+@implementation XLOtherViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

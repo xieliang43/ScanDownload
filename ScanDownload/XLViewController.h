@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import "ZBarSDK.h"
+#import "XLOtherViewController.h"
 
 @interface XLViewController : UIViewController
 <ZBarReaderDelegate>
 
-@property (nonatomic,retain) IBOutlet UITextField *addressField;
-
-- (IBAction)doScan:(id)sender;
+- (IBAction)scan:(id)sender;
+- (IBAction)presentOtherController:(id)sender;
 
 @end

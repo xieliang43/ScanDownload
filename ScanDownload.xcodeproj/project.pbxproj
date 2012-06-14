@@ -21,10 +21,8 @@
 		E0CBADC41589B2CD00920C8A /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0CBADC31589B2CD00920C8A /* CoreMedia.framework */; };
 		E0CBADC61589B2E800920C8A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0CBADC51589B2E800920C8A /* QuartzCore.framework */; };
 		E0CBADC81589B30100920C8A /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E0CBADC71589B30100920C8A /* libiconv.dylib */; };
-		E0CBADCC1589B5EF00920C8A /* XLDownloadAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CBADCA1589B5EF00920C8A /* XLDownloadAppController.m */; };
-		E0CBADCD1589B5EF00920C8A /* XLDownloadAppController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0CBADCB1589B5EF00920C8A /* XLDownloadAppController.xib */; };
-		E0CBADD11589B60B00920C8A /* XLAccessWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CBADCF1589B60B00920C8A /* XLAccessWebController.m */; };
-		E0CBADD21589B60B00920C8A /* XLAccessWebController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0CBADD01589B60B00920C8A /* XLAccessWebController.xib */; };
+		E0CBADD61589B93500920C8A /* XLOtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CBADD41589B93500920C8A /* XLOtherViewController.m */; };
+		E0CBADD71589B93500920C8A /* XLOtherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0CBADD51589B93500920C8A /* XLOtherViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,12 +65,9 @@
 		E0CBADC31589B2CD00920C8A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		E0CBADC51589B2E800920C8A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		E0CBADC71589B30100920C8A /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
-		E0CBADC91589B5EF00920C8A /* XLDownloadAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLDownloadAppController.h; sourceTree = "<group>"; };
-		E0CBADCA1589B5EF00920C8A /* XLDownloadAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLDownloadAppController.m; sourceTree = "<group>"; };
-		E0CBADCB1589B5EF00920C8A /* XLDownloadAppController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XLDownloadAppController.xib; sourceTree = "<group>"; };
-		E0CBADCE1589B60B00920C8A /* XLAccessWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLAccessWebController.h; sourceTree = "<group>"; };
-		E0CBADCF1589B60B00920C8A /* XLAccessWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLAccessWebController.m; sourceTree = "<group>"; };
-		E0CBADD01589B60B00920C8A /* XLAccessWebController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XLAccessWebController.xib; sourceTree = "<group>"; };
+		E0CBADD31589B93500920C8A /* XLOtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLOtherViewController.h; sourceTree = "<group>"; };
+		E0CBADD41589B93500920C8A /* XLOtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLOtherViewController.m; sourceTree = "<group>"; };
+		E0CBADD51589B93500920C8A /* XLOtherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XLOtherViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,12 +132,9 @@
 				E0CBAD951589AE2E00920C8A /* XLViewController.h */,
 				E0CBAD961589AE2E00920C8A /* XLViewController.m */,
 				E0CBAD981589AE2E00920C8A /* XLViewController.xib */,
-				E0CBADC91589B5EF00920C8A /* XLDownloadAppController.h */,
-				E0CBADCA1589B5EF00920C8A /* XLDownloadAppController.m */,
-				E0CBADCB1589B5EF00920C8A /* XLDownloadAppController.xib */,
-				E0CBADCE1589B60B00920C8A /* XLAccessWebController.h */,
-				E0CBADCF1589B60B00920C8A /* XLAccessWebController.m */,
-				E0CBADD01589B60B00920C8A /* XLAccessWebController.xib */,
+				E0CBADD31589B93500920C8A /* XLOtherViewController.h */,
+				E0CBADD41589B93500920C8A /* XLOtherViewController.m */,
+				E0CBADD51589B93500920C8A /* XLOtherViewController.xib */,
 				E0CBAD8A1589AE2E00920C8A /* Supporting Files */,
 			);
 			path = ScanDownload;
@@ -248,8 +240,7 @@
 			files = (
 				E0CBAD8E1589AE2E00920C8A /* InfoPlist.strings in Resources */,
 				E0CBAD9A1589AE2E00920C8A /* XLViewController.xib in Resources */,
-				E0CBADCD1589B5EF00920C8A /* XLDownloadAppController.xib in Resources */,
-				E0CBADD21589B60B00920C8A /* XLAccessWebController.xib in Resources */,
+				E0CBADD71589B93500920C8A /* XLOtherViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,8 +254,7 @@
 				E0CBAD901589AE2E00920C8A /* main.m in Sources */,
 				E0CBAD941589AE2E00920C8A /* XLAppDelegate.m in Sources */,
 				E0CBAD971589AE2E00920C8A /* XLViewController.m in Sources */,
-				E0CBADCC1589B5EF00920C8A /* XLDownloadAppController.m in Sources */,
-				E0CBADD11589B60B00920C8A /* XLAccessWebController.m in Sources */,
+				E0CBADD61589B93500920C8A /* XLOtherViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
