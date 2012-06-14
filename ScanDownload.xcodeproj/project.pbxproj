@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E042A2BE158A0F45007E9082 /* btn_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E042A2BC158A0F45007E9082 /* btn_bg@2x.png */; };
+		E042A2BF158A0F45007E9082 /* main_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E042A2BD158A0F45007E9082 /* main_bg@2x.png */; };
 		E0CBAD841589AE2E00920C8A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0CBAD831589AE2E00920C8A /* UIKit.framework */; };
 		E0CBAD861589AE2E00920C8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0CBAD851589AE2E00920C8A /* Foundation.framework */; };
 		E0CBAD881589AE2E00920C8A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0CBAD871589AE2E00920C8A /* CoreGraphics.framework */; };
@@ -28,6 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E042A2BC158A0F45007E9082 /* btn_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_bg@2x.png"; sourceTree = "<group>"; };
+		E042A2BD158A0F45007E9082 /* main_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_bg@2x.png"; sourceTree = "<group>"; };
 		E0CBAD7F1589AE2E00920C8A /* ScanDownload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScanDownload.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0CBAD831589AE2E00920C8A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E0CBAD851589AE2E00920C8A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -194,6 +198,8 @@
 		E0CBADE01589C44100920C8A /* image */ = {
 			isa = PBXGroup;
 			children = (
+				E042A2BC158A0F45007E9082 /* btn_bg@2x.png */,
+				E042A2BD158A0F45007E9082 /* main_bg@2x.png */,
 				E0CBADE61589C63800920C8A /* mask@2x.png */,
 				E0CBADE71589C63800920C8A /* mask.png */,
 			);
@@ -257,6 +263,8 @@
 				E0CBADD71589B93500920C8A /* XLOtherViewController.xib in Resources */,
 				E0CBADE81589C63800920C8A /* mask@2x.png in Resources */,
 				E0CBADE91589C63800920C8A /* mask.png in Resources */,
+				E042A2BE158A0F45007E9082 /* btn_bg@2x.png in Resources */,
+				E042A2BF158A0F45007E9082 /* main_bg@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
