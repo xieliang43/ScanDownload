@@ -15,6 +15,16 @@
 		E0CBAD941589AE2E00920C8A /* XLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CBAD931589AE2E00920C8A /* XLAppDelegate.m */; };
 		E0CBAD971589AE2E00920C8A /* XLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CBAD961589AE2E00920C8A /* XLViewController.m */; };
 		E0CBAD9A1589AE2E00920C8A /* XLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0CBAD981589AE2E00920C8A /* XLViewController.xib */; };
+		E0CBADBC1589AEDD00920C8A /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0CBADBB1589AEDD00920C8A /* libzbar.a */; };
+		E0CBADBE1589B2A600920C8A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0CBADBD1589B2A600920C8A /* AVFoundation.framework */; };
+		E0CBADC01589B2AE00920C8A /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0CBADBF1589B2AE00920C8A /* CoreVideo.framework */; };
+		E0CBADC41589B2CD00920C8A /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0CBADC31589B2CD00920C8A /* CoreMedia.framework */; };
+		E0CBADC61589B2E800920C8A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0CBADC51589B2E800920C8A /* QuartzCore.framework */; };
+		E0CBADC81589B30100920C8A /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E0CBADC71589B30100920C8A /* libiconv.dylib */; };
+		E0CBADCC1589B5EF00920C8A /* XLDownloadAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CBADCA1589B5EF00920C8A /* XLDownloadAppController.m */; };
+		E0CBADCD1589B5EF00920C8A /* XLDownloadAppController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0CBADCB1589B5EF00920C8A /* XLDownloadAppController.xib */; };
+		E0CBADD11589B60B00920C8A /* XLAccessWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CBADCF1589B60B00920C8A /* XLAccessWebController.m */; };
+		E0CBADD21589B60B00920C8A /* XLAccessWebController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0CBADD01589B60B00920C8A /* XLAccessWebController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +41,38 @@
 		E0CBAD951589AE2E00920C8A /* XLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLViewController.h; sourceTree = "<group>"; };
 		E0CBAD961589AE2E00920C8A /* XLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLViewController.m; sourceTree = "<group>"; };
 		E0CBAD991589AE2E00920C8A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/XLViewController.xib; sourceTree = "<group>"; };
+		E0CBADA71589AECE00920C8A /* Decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decoder.h; sourceTree = "<group>"; };
+		E0CBADA81589AECE00920C8A /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
+		E0CBADA91589AECE00920C8A /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		E0CBADAA1589AECE00920C8A /* ImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScanner.h; sourceTree = "<group>"; };
+		E0CBADAB1589AECE00920C8A /* Processor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processor.h; sourceTree = "<group>"; };
+		E0CBADAC1589AECE00920C8A /* Scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scanner.h; sourceTree = "<group>"; };
+		E0CBADAD1589AECE00920C8A /* Symbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Symbol.h; sourceTree = "<group>"; };
+		E0CBADAE1589AECE00920C8A /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		E0CBADAF1589AECE00920C8A /* Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Window.h; sourceTree = "<group>"; };
+		E0CBADB01589AECE00920C8A /* zbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zbar.h; sourceTree = "<group>"; };
+		E0CBADB11589AECE00920C8A /* ZBarCameraSimulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCameraSimulator.h; sourceTree = "<group>"; };
+		E0CBADB21589AECE00920C8A /* ZBarCaptureReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCaptureReader.h; sourceTree = "<group>"; };
+		E0CBADB31589AECE00920C8A /* ZBarHelpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarHelpController.h; sourceTree = "<group>"; };
+		E0CBADB41589AECE00920C8A /* ZBarImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImage.h; sourceTree = "<group>"; };
+		E0CBADB51589AECE00920C8A /* ZBarImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImageScanner.h; sourceTree = "<group>"; };
+		E0CBADB61589AECE00920C8A /* ZBarReaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderController.h; sourceTree = "<group>"; };
+		E0CBADB71589AECE00920C8A /* ZBarReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderView.h; sourceTree = "<group>"; };
+		E0CBADB81589AECE00920C8A /* ZBarReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderViewController.h; sourceTree = "<group>"; };
+		E0CBADB91589AECE00920C8A /* ZBarSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSDK.h; sourceTree = "<group>"; };
+		E0CBADBA1589AECE00920C8A /* ZBarSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSymbol.h; sourceTree = "<group>"; };
+		E0CBADBB1589AEDD00920C8A /* libzbar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzbar.a; sourceTree = "<group>"; };
+		E0CBADBD1589B2A600920C8A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E0CBADBF1589B2AE00920C8A /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		E0CBADC31589B2CD00920C8A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		E0CBADC51589B2E800920C8A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E0CBADC71589B30100920C8A /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		E0CBADC91589B5EF00920C8A /* XLDownloadAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLDownloadAppController.h; sourceTree = "<group>"; };
+		E0CBADCA1589B5EF00920C8A /* XLDownloadAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLDownloadAppController.m; sourceTree = "<group>"; };
+		E0CBADCB1589B5EF00920C8A /* XLDownloadAppController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XLDownloadAppController.xib; sourceTree = "<group>"; };
+		E0CBADCE1589B60B00920C8A /* XLAccessWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLAccessWebController.h; sourceTree = "<group>"; };
+		E0CBADCF1589B60B00920C8A /* XLAccessWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLAccessWebController.m; sourceTree = "<group>"; };
+		E0CBADD01589B60B00920C8A /* XLAccessWebController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XLAccessWebController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,9 +80,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0CBADC81589B30100920C8A /* libiconv.dylib in Frameworks */,
+				E0CBADC61589B2E800920C8A /* QuartzCore.framework in Frameworks */,
+				E0CBADC41589B2CD00920C8A /* CoreMedia.framework in Frameworks */,
+				E0CBADC01589B2AE00920C8A /* CoreVideo.framework in Frameworks */,
+				E0CBADBE1589B2A600920C8A /* AVFoundation.framework in Frameworks */,
 				E0CBAD841589AE2E00920C8A /* UIKit.framework in Frameworks */,
 				E0CBAD861589AE2E00920C8A /* Foundation.framework in Frameworks */,
 				E0CBAD881589AE2E00920C8A /* CoreGraphics.framework in Frameworks */,
+				E0CBADBC1589AEDD00920C8A /* libzbar.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +115,12 @@
 		E0CBAD821589AE2E00920C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E0CBADC71589B30100920C8A /* libiconv.dylib */,
+				E0CBADC51589B2E800920C8A /* QuartzCore.framework */,
+				E0CBADC31589B2CD00920C8A /* CoreMedia.framework */,
+				E0CBADBF1589B2AE00920C8A /* CoreVideo.framework */,
+				E0CBADBD1589B2A600920C8A /* AVFoundation.framework */,
+				E0CBADBB1589AEDD00920C8A /* libzbar.a */,
 				E0CBAD831589AE2E00920C8A /* UIKit.framework */,
 				E0CBAD851589AE2E00920C8A /* Foundation.framework */,
 				E0CBAD871589AE2E00920C8A /* CoreGraphics.framework */,
@@ -77,11 +131,18 @@
 		E0CBAD891589AE2E00920C8A /* ScanDownload */ = {
 			isa = PBXGroup;
 			children = (
+				E0CBADA51589AECE00920C8A /* ZBarSDK */,
 				E0CBAD921589AE2E00920C8A /* XLAppDelegate.h */,
 				E0CBAD931589AE2E00920C8A /* XLAppDelegate.m */,
 				E0CBAD951589AE2E00920C8A /* XLViewController.h */,
 				E0CBAD961589AE2E00920C8A /* XLViewController.m */,
 				E0CBAD981589AE2E00920C8A /* XLViewController.xib */,
+				E0CBADC91589B5EF00920C8A /* XLDownloadAppController.h */,
+				E0CBADCA1589B5EF00920C8A /* XLDownloadAppController.m */,
+				E0CBADCB1589B5EF00920C8A /* XLDownloadAppController.xib */,
+				E0CBADCE1589B60B00920C8A /* XLAccessWebController.h */,
+				E0CBADCF1589B60B00920C8A /* XLAccessWebController.m */,
+				E0CBADD01589B60B00920C8A /* XLAccessWebController.xib */,
 				E0CBAD8A1589AE2E00920C8A /* Supporting Files */,
 			);
 			path = ScanDownload;
@@ -96,6 +157,41 @@
 				E0CBAD911589AE2E00920C8A /* ScanDownload-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0CBADA51589AECE00920C8A /* ZBarSDK */ = {
+			isa = PBXGroup;
+			children = (
+				E0CBADA61589AECE00920C8A /* zbar */,
+				E0CBADB01589AECE00920C8A /* zbar.h */,
+				E0CBADB11589AECE00920C8A /* ZBarCameraSimulator.h */,
+				E0CBADB21589AECE00920C8A /* ZBarCaptureReader.h */,
+				E0CBADB31589AECE00920C8A /* ZBarHelpController.h */,
+				E0CBADB41589AECE00920C8A /* ZBarImage.h */,
+				E0CBADB51589AECE00920C8A /* ZBarImageScanner.h */,
+				E0CBADB61589AECE00920C8A /* ZBarReaderController.h */,
+				E0CBADB71589AECE00920C8A /* ZBarReaderView.h */,
+				E0CBADB81589AECE00920C8A /* ZBarReaderViewController.h */,
+				E0CBADB91589AECE00920C8A /* ZBarSDK.h */,
+				E0CBADBA1589AECE00920C8A /* ZBarSymbol.h */,
+			);
+			path = ZBarSDK;
+			sourceTree = "<group>";
+		};
+		E0CBADA61589AECE00920C8A /* zbar */ = {
+			isa = PBXGroup;
+			children = (
+				E0CBADA71589AECE00920C8A /* Decoder.h */,
+				E0CBADA81589AECE00920C8A /* Exception.h */,
+				E0CBADA91589AECE00920C8A /* Image.h */,
+				E0CBADAA1589AECE00920C8A /* ImageScanner.h */,
+				E0CBADAB1589AECE00920C8A /* Processor.h */,
+				E0CBADAC1589AECE00920C8A /* Scanner.h */,
+				E0CBADAD1589AECE00920C8A /* Symbol.h */,
+				E0CBADAE1589AECE00920C8A /* Video.h */,
+				E0CBADAF1589AECE00920C8A /* Window.h */,
+			);
+			path = zbar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +248,8 @@
 			files = (
 				E0CBAD8E1589AE2E00920C8A /* InfoPlist.strings in Resources */,
 				E0CBAD9A1589AE2E00920C8A /* XLViewController.xib in Resources */,
+				E0CBADCD1589B5EF00920C8A /* XLDownloadAppController.xib in Resources */,
+				E0CBADD21589B60B00920C8A /* XLAccessWebController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +263,8 @@
 				E0CBAD901589AE2E00920C8A /* main.m in Sources */,
 				E0CBAD941589AE2E00920C8A /* XLAppDelegate.m in Sources */,
 				E0CBAD971589AE2E00920C8A /* XLViewController.m in Sources */,
+				E0CBADCC1589B5EF00920C8A /* XLDownloadAppController.m in Sources */,
+				E0CBADD11589B60B00920C8A /* XLAccessWebController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +339,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ScanDownload/ScanDownload-Prefix.pch";
 				INFOPLIST_FILE = "ScanDownload/ScanDownload-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -250,6 +355,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ScanDownload/ScanDownload-Prefix.pch";
 				INFOPLIST_FILE = "ScanDownload/ScanDownload-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -274,6 +384,7 @@
 				E0CBAD9F1589AE2E00920C8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
