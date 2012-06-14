@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD9DCBAE158A42F700FB60C6 /* mask_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9DCBAD158A42F700FB60C6 /* mask_btn@2x.png */; };
+		CD9DCBB2158A431E00FB60C6 /* XLMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9DCBB1158A431E00FB60C6 /* XLMaskView.m */; };
 		E042A2BE158A0F45007E9082 /* btn_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E042A2BC158A0F45007E9082 /* btn_bg@2x.png */; };
 		E042A2BF158A0F45007E9082 /* main_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E042A2BD158A0F45007E9082 /* main_bg@2x.png */; };
 		E0CBAD841589AE2E00920C8A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0CBAD831589AE2E00920C8A /* UIKit.framework */; };
@@ -30,6 +32,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD9DCBAD158A42F700FB60C6 /* mask_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mask_btn@2x.png"; sourceTree = "<group>"; };
+		CD9DCBB0158A431E00FB60C6 /* XLMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLMaskView.h; sourceTree = "<group>"; };
+		CD9DCBB1158A431E00FB60C6 /* XLMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLMaskView.m; sourceTree = "<group>"; };
 		E042A2BC158A0F45007E9082 /* btn_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_bg@2x.png"; sourceTree = "<group>"; };
 		E042A2BD158A0F45007E9082 /* main_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_bg@2x.png"; sourceTree = "<group>"; };
 		E0CBAD7F1589AE2E00920C8A /* ScanDownload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScanDownload.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -143,6 +148,8 @@
 				E0CBADD31589B93500920C8A /* XLOtherViewController.h */,
 				E0CBADD41589B93500920C8A /* XLOtherViewController.m */,
 				E0CBADD51589B93500920C8A /* XLOtherViewController.xib */,
+				CD9DCBB0158A431E00FB60C6 /* XLMaskView.h */,
+				CD9DCBB1158A431E00FB60C6 /* XLMaskView.m */,
 				E0CBAD8A1589AE2E00920C8A /* Supporting Files */,
 			);
 			path = ScanDownload;
@@ -202,6 +209,7 @@
 				E042A2BD158A0F45007E9082 /* main_bg@2x.png */,
 				E0CBADE61589C63800920C8A /* mask@2x.png */,
 				E0CBADE71589C63800920C8A /* mask.png */,
+				CD9DCBAD158A42F700FB60C6 /* mask_btn@2x.png */,
 			);
 			name = image;
 			sourceTree = "<group>";
@@ -265,6 +273,7 @@
 				E0CBADE91589C63800920C8A /* mask.png in Resources */,
 				E042A2BE158A0F45007E9082 /* btn_bg@2x.png in Resources */,
 				E042A2BF158A0F45007E9082 /* main_bg@2x.png in Resources */,
+				CD9DCBAE158A42F700FB60C6 /* mask_btn@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +288,7 @@
 				E0CBAD941589AE2E00920C8A /* XLAppDelegate.m in Sources */,
 				E0CBAD971589AE2E00920C8A /* XLViewController.m in Sources */,
 				E0CBADD61589B93500920C8A /* XLOtherViewController.m in Sources */,
+				CD9DCBB2158A431E00FB60C6 /* XLMaskView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
