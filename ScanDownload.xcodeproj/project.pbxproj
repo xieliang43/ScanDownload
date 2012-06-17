@@ -211,13 +211,13 @@
 		E0CBADE01589C44100920C8A /* image */ = {
 			isa = PBXGroup;
 			children = (
-				CDECE687158E0E9900A1171E /* mask_btn.png */,
 				CDECE682158E0C1C00A1171E /* bar_bg.png */,
 				CDECE683158E0C1C00A1171E /* bar_bg@2x.png */,
 				E042A2BC158A0F45007E9082 /* btn_bg@2x.png */,
 				E042A2BD158A0F45007E9082 /* main_bg@2x.png */,
 				E0CBADE61589C63800920C8A /* mask@2x.png */,
 				E0CBADE71589C63800920C8A /* mask.png */,
+				CDECE687158E0E9900A1171E /* mask_btn.png */,
 				CD9DCBAD158A42F700FB60C6 /* mask_btn@2x.png */,
 			);
 			name = image;

@@ -24,6 +24,20 @@
         barView.image = [UIImage imageNamed:@"bar_bg.png"];
         [self addSubview:barView];
         [barView release];
+        
+        UIButton *backBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+        [backBtn setBackgroundImage:[UIImage imageNamed:@"mask_btn.png"] forState:UIControlStateNormal];
+        backBtn.frame = CGRectMake(10, 480-36, 61, 27);
+        backBtn.titleLabel.font = [UIFont systemFontOfSize:14];
+        [backBtn setTitle:@"返回" forState:UIControlStateNormal];
+        [self addSubview:backBtn];
+        
+        UIButton *flashBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+        [flashBtn setBackgroundImage:[UIImage imageNamed:@"mask_btn.png"] forState:UIControlStateNormal];
+        flashBtn.frame = CGRectMake(320-71, 480-36, 61, 27);
+        flashBtn.titleLabel.font = [UIFont systemFontOfSize:14];
+        [flashBtn setTitle:@"闪光灯开" forState:UIControlStateNormal];
+        [self addSubview:flashBtn];
     }
     return self;
 }
