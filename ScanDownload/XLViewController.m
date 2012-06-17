@@ -52,9 +52,9 @@
         reader.readerDelegate = self;
         reader.showsZBarControls = NO;
         reader.supportedOrientationsMask = ZBarOrientationMaskAll;
-        UIImageView *v = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"mask.png"]];
-        reader.cameraOverlayView = v;
-        [v release];
+        XLMaskView *maskView = [[XLMaskView alloc] init];
+        reader.cameraOverlayView = maskView;
+        [maskView release];
         
         ZBarImageScanner *scanner = reader.scanner;
         // TODO: (optional) additional reader configuration here

@@ -14,9 +14,23 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        // Initialization code
+        self.backgroundColor = [UIColor clearColor];
+        UIImageView *bgView = [[UIImageView alloc] initWithFrame:self.bounds];
+        bgView.image = [UIImage imageNamed:@"mask.png"];
+        [self addSubview:bgView];
+        [bgView release];
+        
+        UIImageView *barView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 480-44, 320, 44)];
+        barView.image = [UIImage imageNamed:@"bar_bg.png"];
+        [self addSubview:barView];
+        [barView release];
     }
     return self;
+}
+
+- (id)init
+{
+    return [self initWithFrame:CGRectMake(0, 0, 320, 480)];
 }
 
 /*

@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "ZBarSDK.h"
 #import "XLOtherViewController.h"
+#import "XLMaskView.h"
 
 @interface XLViewController : UIViewController
 <ZBarReaderDelegate>
