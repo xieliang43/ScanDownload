@@ -90,6 +90,13 @@
     
     // EXAMPLE: do something useful with the barcode data
     NSString *str = symbol.data;
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"提示"
+                                                    message:str
+                                                   delegate:nil
+                                          cancelButtonTitle:@"确定"
+                                          otherButtonTitles:nil];
+    [alert show];
+    [alert release];
     NSURL *url = [NSURL URLWithString:str];
     
     // EXAMPLE: do something useful with the barcode image

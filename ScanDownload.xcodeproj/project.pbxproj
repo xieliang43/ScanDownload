@@ -372,6 +372,9 @@
 		E0CBAD9E1589AE2E00920C8A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: fu xunrong (2N75ALLRC5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: fu xunrong (2N75ALLRC5)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ScanDownload/ScanDownload-Prefix.pch";
 				INFOPLIST_FILE = "ScanDownload/ScanDownload-Info.plist";
@@ -381,6 +384,8 @@
 					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4E0D035E-B9AA-44C4-ACCD-F4686FDD1535";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4E0D035E-B9AA-44C4-ACCD-F4686FDD1535";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -388,6 +393,9 @@
 		E0CBAD9F1589AE2E00920C8A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: fu xunrong (2N75ALLRC5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: fu xunrong (2N75ALLRC5)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ScanDownload/ScanDownload-Prefix.pch";
 				INFOPLIST_FILE = "ScanDownload/ScanDownload-Info.plist";
@@ -397,6 +405,8 @@
 					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4E0D035E-B9AA-44C4-ACCD-F4686FDD1535";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4E0D035E-B9AA-44C4-ACCD-F4686FDD1535";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

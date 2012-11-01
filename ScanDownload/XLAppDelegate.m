@@ -15,6 +15,11 @@
 @synthesize window = _window;
 @synthesize viewController = _viewController;
 
+- (void)printSomething
+{
+    NSLog(@"aaaaaaaaa");
+}
+
 - (void)dealloc
 {
     [_window release];
@@ -26,6 +31,8 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
+    [self performSelector:@selector(printSomething) withObject:nil afterDelay:0];
+    [self printSomething];
     
     application.statusBarStyle = UIStatusBarStyleBlackTranslucent;
     
